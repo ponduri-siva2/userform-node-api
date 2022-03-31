@@ -1,24 +1,28 @@
-# userform-node-api
-sample user form 
+## userform-node-api
 
-FrontEnd :  React
+### sample user form 
 
-Rest Api : Node
+`FrontEnd :  React`
 
-DataBase : MangoDB(atlas)
+`Rest Api : Node`
+
+`DataBase : MangoDB(atlas)`
 
 Step: 1 
-navigate to folder userform-node-api
 
 do following to start node server on port 3003
+```
 $ cd userform-node-api
 $ npm install
 $ npm run devStart  (for development which configured in package.json with nodemon)
-
+```
+Step:2
 
 next do the following to start react app on port 3000
+```
 $ cd userform-node-api/ui
 $ npm install
 $ npm start
+```
 
 access the screen with root URL : http://localhost:3000/users
